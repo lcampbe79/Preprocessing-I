@@ -204,14 +204,46 @@ hr {
   border-style: inset;
   border-width: 1	px;
 }
-button {
-  display: block;
+.middle-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.middle-content .intro {
+  margin: 20px 0.5%;
+  width: 45%;
+}
+.middle-content .skills {
+  margin: 20px 0.5%;
+  width: 45%;
+}
+.middle-content .skills ul {
+  font-size: 1.6rem;
+  border: 1px solid gainsboro;
+}
+.middle-content .skills li {
+  border: 1px solid gainsboro;
+  padding: 15px;
+}
+table {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 40px;
+}
+table td,
+table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+footer {
   color: white;
-  background-color: dimgrey;
-  margin: 20px 10px 20px;
-  cursor: pointer;
-  width: 200px;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 5px;
+  background: darkgrey;
+  text-align: center;
+  padding: 35px 0;
 }

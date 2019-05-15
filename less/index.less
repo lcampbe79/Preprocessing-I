@@ -123,15 +123,13 @@ nav {
 		font-size: 2rem;
 		border-radius: 5px;
 
-	}
-	
+	}	
 }
 
 img {
 	width: 20%;
 	// padding: 8px;
 }
-
 
 hr {
 	border-color: gainsboro;
@@ -141,20 +139,53 @@ hr {
 
 }
 
+.middle-content {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
 
-button {
-	display: block;
-	color: white;
-  	background-color: dimgrey;
-  	margin: 20px 10px 20px;
-  	cursor: pointer;
-  	width: 200px;
-  	height: 45px;
-  	font-size: 2rem;
- 	border-radius: 5px;
+	.intro{
+		margin: 20px 0.5%;
+		width: 45%;
+	}
 
+	.skills {
+		margin: 20px 0.5%;
+		width: 45%;
+
+		ul {
+			font-size: 1.6rem;
+			border: 1px solid gainsboro
+		}
+
+		li {
+			border: 1px solid gainsboro;
+			padding: 15px;
+		}
+	}
 }
 
+table {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 1.5rem;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 40px;
 
+	td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	}
 
+	tr:nth-child(even) {
+	background-color: #dddddd;
+	}
+}
 
+footer {
+	color: white;
+    background: darkgrey;
+    text-align: center;
+    padding: 35px 0;
+}
