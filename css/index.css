@@ -159,13 +159,7 @@ header {
   padding: 32px 0;
   justify-content: flex-end;
 }
-@media (max-width: 515px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-nav {
+header nav {
   display: flex;
   width: 72%;
   padding: 0 0 0 30px;
@@ -173,16 +167,16 @@ nav {
   align-items: flex-end;
 }
 @media (max-width: 515px) {
-  nav {
+  header {
     margin-left: 0;
   }
 }
-nav a {
+header a {
   color: black;
   font-size: 1.7rem;
   text-decoration: none;
 }
-nav a:hover {
+header a:hover {
   text-decoration: none;
 }
 .main-content {
@@ -256,5 +250,5 @@ footer {
   color: white;
   background: darkgrey;
   text-align: center;
-  padding: 35px 0;
+  padding: 19px 0;
 }
