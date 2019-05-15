@@ -81,14 +81,17 @@ header {
 	display: flex;
 	padding: 32px 0;
 	justify-content: flex-end;
-}
 
-nav {
+	nav {
 	display: flex;
 	width: 72%;
 	padding: 0 0 0 30px;
 	justify-content: space-around;
 	align-items: flex-end;
+
+	@media( max-width: 515px ) {
+		margin-left: 0;
+	}
 
 	a {
 		color: black;
@@ -128,7 +131,6 @@ nav {
 
 img {
 	width: 20%;
-	// padding: 8px;
 }
 
 hr {
@@ -144,7 +146,7 @@ hr {
 	flex-direction: row;
 	margin-bottom: 10px;
 
-	.intro{
+	.intro {
 		margin: 20px 0.5%;
 		width: 45%;
 	}
@@ -187,5 +189,5 @@ footer {
 	color: white;
     background: darkgrey;
     text-align: center;
-    padding: 35px 0;
+    padding: 19px 0;
 }
