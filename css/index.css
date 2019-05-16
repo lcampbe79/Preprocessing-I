@@ -166,11 +166,6 @@ header nav {
   justify-content: space-around;
   align-items: flex-end;
 }
-@media (max-width: 515px) {
-  header {
-    margin-left: 0;
-  }
-}
 header a {
   color: black;
   font-size: 1.7rem;
